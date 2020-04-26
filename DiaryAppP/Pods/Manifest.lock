@@ -1,0 +1,26 @@
+PODS:
+  - JBDatePicker (1.2.5)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+
+DEPENDENCIES:
+  - JBDatePicker
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - JBDatePicker
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  JBDatePicker: 0e791c8a79c49b0d37decea28ba147515bf5cfca
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+
+PODFILE CHECKSUM: d82dce37e80fc2b4c958149afec4201d6cd88af8
+
+COCOAPODS: 1.8.4
