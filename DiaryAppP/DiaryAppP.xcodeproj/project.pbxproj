@@ -3,184 +3,189 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D7BE77C19A058722CD9CCE5 /* Pods_DiaryAppPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 678B739BDA72654E6ADEECD0 /* Pods_DiaryAppPTests.framework */; };
-		B0B7B1B381227FB5812D2A8F /* Pods_DiaryAppP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E287C04A77C6EF4778888051 /* Pods_DiaryAppP.framework */; };
-		CC0139660432BFFCCEA562B0 /* Pods_DiaryAppP_DiaryAppPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04994C95686CFAE8D4BFB88A /* Pods_DiaryAppP_DiaryAppPUITests.framework */; };
-		DAACFBE324557014000DDB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACFBE224557014000DDB14 /* AppDelegate.swift */; };
-		DAACFBE524557014000DDB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACFBE424557014000DDB14 /* SceneDelegate.swift */; };
-		DAACFBE724557014000DDB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACFBE624557014000DDB14 /* ViewController.swift */; };
-		DAACFBEA24557014000DDB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAACFBE824557014000DDB14 /* Main.storyboard */; };
-		DAACFBEC24557015000DDB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAACFBEB24557015000DDB14 /* Assets.xcassets */; };
-		DAACFBEF24557015000DDB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAACFBED24557015000DDB14 /* LaunchScreen.storyboard */; };
-		DAACFBFA24557015000DDB14 /* DiaryAppPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACFBF924557015000DDB14 /* DiaryAppPTests.swift */; };
-		DAACFC0524557015000DDB14 /* DiaryAppPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAACFC0424557015000DDB14 /* DiaryAppPUITests.swift */; };
+		7BDAF26CA9645628BEC21577 /* Pods_DiaryAppPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82033AEB9A7D435BFE24067E /* Pods_DiaryAppPTests.framework */; };
+		9A904A9E0AE1093D12315FD0 /* Pods_DiaryAppP_DiaryAppPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA75305979176D691C9DA4C8 /* Pods_DiaryAppP_DiaryAppPUITests.framework */; };
+		CB36BF054C056B35704EB947 /* Pods_DiaryAppP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8744B4D6DB44B09E79D686E6 /* Pods_DiaryAppP.framework */; };
+		DAC5A46924557AF200DFB2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5A46824557AF200DFB2D1 /* AppDelegate.swift */; };
+		DAC5A46B24557AF200DFB2D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5A46A24557AF200DFB2D1 /* SceneDelegate.swift */; };
+		DAC5A46D24557AF200DFB2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5A46C24557AF200DFB2D1 /* ViewController.swift */; };
+		DAC5A47024557AF200DFB2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC5A46E24557AF200DFB2D1 /* Main.storyboard */; };
+		DAC5A47224557AF300DFB2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC5A47124557AF300DFB2D1 /* Assets.xcassets */; };
+		DAC5A47524557AF300DFB2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC5A47324557AF300DFB2D1 /* LaunchScreen.storyboard */; };
+		DAC5A48024557AF300DFB2D1 /* DiaryAppPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5A47F24557AF300DFB2D1 /* DiaryAppPTests.swift */; };
+		DAC5A48B24557AF300DFB2D1 /* DiaryAppPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC5A48A24557AF300DFB2D1 /* DiaryAppPUITests.swift */; };
+		DAE258DA24558AF200C79DC4 /* Diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE258D924558AF200C79DC4 /* Diary.swift */; };
+		DAE258DC24558F6300C79DC4 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE258DB24558F6300C79DC4 /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DAACFBF624557015000DDB14 /* PBXContainerItemProxy */ = {
+		DAC5A47C24557AF300DFB2D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAACFBD724557014000DDB14 /* Project object */;
+			containerPortal = DAC5A45D24557AF200DFB2D1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAACFBDE24557014000DDB14;
+			remoteGlobalIDString = DAC5A46424557AF200DFB2D1;
 			remoteInfo = DiaryAppP;
 		};
-		DAACFC0124557015000DDB14 /* PBXContainerItemProxy */ = {
+		DAC5A48724557AF300DFB2D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DAACFBD724557014000DDB14 /* Project object */;
+			containerPortal = DAC5A45D24557AF200DFB2D1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DAACFBDE24557014000DDB14;
+			remoteGlobalIDString = DAC5A46424557AF200DFB2D1;
 			remoteInfo = DiaryAppP;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04994C95686CFAE8D4BFB88A /* Pods_DiaryAppP_DiaryAppPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppP_DiaryAppPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53FC5C3B6D76FDE080B21E19 /* Pods-DiaryAppP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP.release.xcconfig"; sourceTree = "<group>"; };
-		61BAD937FF64565D2AE2DCE1 /* Pods-DiaryAppP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP.debug.xcconfig"; sourceTree = "<group>"; };
-		678B739BDA72654E6ADEECD0 /* Pods_DiaryAppPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		759B5AA8349A5C6371374F15 /* Pods-DiaryAppPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppPTests.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppPTests/Pods-DiaryAppPTests.release.xcconfig"; sourceTree = "<group>"; };
-		B4F9EF49EC9F3B515C0F65D6 /* Pods-DiaryAppPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppPTests.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppPTests/Pods-DiaryAppPTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DAACFBDF24557014000DDB14 /* DiaryAppP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryAppP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAACFBE224557014000DDB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DAACFBE424557014000DDB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAACFBE624557014000DDB14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAACFBE924557014000DDB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DAACFBEB24557015000DDB14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DAACFBEE24557015000DDB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DAACFBF024557015000DDB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAACFBF524557015000DDB14 /* DiaryAppPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAACFBF924557015000DDB14 /* DiaryAppPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppPTests.swift; sourceTree = "<group>"; };
-		DAACFBFB24557015000DDB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DAACFC0024557015000DDB14 /* DiaryAppPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAACFC0424557015000DDB14 /* DiaryAppPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppPUITests.swift; sourceTree = "<group>"; };
-		DAACFC0624557015000DDB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E053578538A58755A80D0849 /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		E287C04A77C6EF4778888051 /* Pods_DiaryAppP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEF37E156127C4B48EF68D8B /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		062799A6D51BF66CBDAEC830 /* Pods-DiaryAppP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP.release.xcconfig"; sourceTree = "<group>"; };
+		0AA56754FFA2D03336F084F8 /* Pods-DiaryAppP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP.debug.xcconfig"; sourceTree = "<group>"; };
+		29239913933A5B8D9593D2FC /* Pods-DiaryAppPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppPTests.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppPTests/Pods-DiaryAppPTests.release.xcconfig"; sourceTree = "<group>"; };
+		82033AEB9A7D435BFE24067E /* Pods_DiaryAppPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8744B4D6DB44B09E79D686E6 /* Pods_DiaryAppP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A171DB855C53B0AA64EF6674 /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig"; path = "Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B881058B2B72D61BB8EE0CFB /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC5A46524557AF200DFB2D1 /* DiaryAppP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiaryAppP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC5A46824557AF200DFB2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAC5A46A24557AF200DFB2D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAC5A46C24557AF200DFB2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAC5A46F24557AF200DFB2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAC5A47124557AF300DFB2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAC5A47424557AF300DFB2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAC5A47624557AF300DFB2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC5A47B24557AF300DFB2D1 /* DiaryAppPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC5A47F24557AF300DFB2D1 /* DiaryAppPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppPTests.swift; sourceTree = "<group>"; };
+		DAC5A48124557AF300DFB2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC5A48624557AF300DFB2D1 /* DiaryAppPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAppPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAC5A48A24557AF300DFB2D1 /* DiaryAppPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAppPUITests.swift; sourceTree = "<group>"; };
+		DAC5A48C24557AF300DFB2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE258D924558AF200C79DC4 /* Diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diary.swift; sourceTree = "<group>"; };
+		DAE258DB24558F6300C79DC4 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		EE34948776F81A755CDD859D /* Pods-DiaryAppPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiaryAppPTests.debug.xcconfig"; path = "Target Support Files/Pods-DiaryAppPTests/Pods-DiaryAppPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA75305979176D691C9DA4C8 /* Pods_DiaryAppP_DiaryAppPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiaryAppP_DiaryAppPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DAACFBDC24557014000DDB14 /* Frameworks */ = {
+		DAC5A46224557AF200DFB2D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B7B1B381227FB5812D2A8F /* Pods_DiaryAppP.framework in Frameworks */,
+				CB36BF054C056B35704EB947 /* Pods_DiaryAppP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBF224557015000DDB14 /* Frameworks */ = {
+		DAC5A47824557AF300DFB2D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D7BE77C19A058722CD9CCE5 /* Pods_DiaryAppPTests.framework in Frameworks */,
+				7BDAF26CA9645628BEC21577 /* Pods_DiaryAppPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBFD24557015000DDB14 /* Frameworks */ = {
+		DAC5A48324557AF300DFB2D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0139660432BFFCCEA562B0 /* Pods_DiaryAppP_DiaryAppPUITests.framework in Frameworks */,
+				9A904A9E0AE1093D12315FD0 /* Pods_DiaryAppP_DiaryAppPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		197E04B15696D649943985E8 /* Frameworks */ = {
+		82EE9D73BDB66757EF8869AD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E287C04A77C6EF4778888051 /* Pods_DiaryAppP.framework */,
-				04994C95686CFAE8D4BFB88A /* Pods_DiaryAppP_DiaryAppPUITests.framework */,
-				678B739BDA72654E6ADEECD0 /* Pods_DiaryAppPTests.framework */,
+				8744B4D6DB44B09E79D686E6 /* Pods_DiaryAppP.framework */,
+				FA75305979176D691C9DA4C8 /* Pods_DiaryAppP_DiaryAppPUITests.framework */,
+				82033AEB9A7D435BFE24067E /* Pods_DiaryAppPTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DAACFBD624557014000DDB14 = {
+		841340F95B5D9FBBA5C668E9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DAACFBE124557014000DDB14 /* DiaryAppP */,
-				DAACFBF824557015000DDB14 /* DiaryAppPTests */,
-				DAACFC0324557015000DDB14 /* DiaryAppPUITests */,
-				DAACFBE024557014000DDB14 /* Products */,
-				FDBA705176C1A387EE43D3CD /* Pods */,
-				197E04B15696D649943985E8 /* Frameworks */,
+				0AA56754FFA2D03336F084F8 /* Pods-DiaryAppP.debug.xcconfig */,
+				062799A6D51BF66CBDAEC830 /* Pods-DiaryAppP.release.xcconfig */,
+				B881058B2B72D61BB8EE0CFB /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */,
+				A171DB855C53B0AA64EF6674 /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */,
+				EE34948776F81A755CDD859D /* Pods-DiaryAppPTests.debug.xcconfig */,
+				29239913933A5B8D9593D2FC /* Pods-DiaryAppPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAC5A45C24557AF200DFB2D1 = {
+			isa = PBXGroup;
+			children = (
+				DAC5A46724557AF200DFB2D1 /* DiaryAppP */,
+				DAC5A47E24557AF300DFB2D1 /* DiaryAppPTests */,
+				DAC5A48924557AF300DFB2D1 /* DiaryAppPUITests */,
+				DAC5A46624557AF200DFB2D1 /* Products */,
+				841340F95B5D9FBBA5C668E9 /* Pods */,
+				82EE9D73BDB66757EF8869AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		DAACFBE024557014000DDB14 /* Products */ = {
+		DAC5A46624557AF200DFB2D1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DAACFBDF24557014000DDB14 /* DiaryAppP.app */,
-				DAACFBF524557015000DDB14 /* DiaryAppPTests.xctest */,
-				DAACFC0024557015000DDB14 /* DiaryAppPUITests.xctest */,
+				DAC5A46524557AF200DFB2D1 /* DiaryAppP.app */,
+				DAC5A47B24557AF300DFB2D1 /* DiaryAppPTests.xctest */,
+				DAC5A48624557AF300DFB2D1 /* DiaryAppPUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DAACFBE124557014000DDB14 /* DiaryAppP */ = {
+		DAC5A46724557AF200DFB2D1 /* DiaryAppP */ = {
 			isa = PBXGroup;
 			children = (
-				DAACFBE224557014000DDB14 /* AppDelegate.swift */,
-				DAACFBE424557014000DDB14 /* SceneDelegate.swift */,
-				DAACFBE624557014000DDB14 /* ViewController.swift */,
-				DAACFBE824557014000DDB14 /* Main.storyboard */,
-				DAACFBEB24557015000DDB14 /* Assets.xcassets */,
-				DAACFBED24557015000DDB14 /* LaunchScreen.storyboard */,
-				DAACFBF024557015000DDB14 /* Info.plist */,
+				DAC5A46824557AF200DFB2D1 /* AppDelegate.swift */,
+				DAC5A46A24557AF200DFB2D1 /* SceneDelegate.swift */,
+				DAC5A46C24557AF200DFB2D1 /* ViewController.swift */,
+				DAE258D924558AF200C79DC4 /* Diary.swift */,
+				DAC5A46E24557AF200DFB2D1 /* Main.storyboard */,
+				DAE258DB24558F6300C79DC4 /* DiaryViewController.swift */,
+				DAC5A47124557AF300DFB2D1 /* Assets.xcassets */,
+				DAC5A47324557AF300DFB2D1 /* LaunchScreen.storyboard */,
+				DAC5A47624557AF300DFB2D1 /* Info.plist */,
 			);
 			path = DiaryAppP;
 			sourceTree = "<group>";
 		};
-		DAACFBF824557015000DDB14 /* DiaryAppPTests */ = {
+		DAC5A47E24557AF300DFB2D1 /* DiaryAppPTests */ = {
 			isa = PBXGroup;
 			children = (
-				DAACFBF924557015000DDB14 /* DiaryAppPTests.swift */,
-				DAACFBFB24557015000DDB14 /* Info.plist */,
+				DAC5A47F24557AF300DFB2D1 /* DiaryAppPTests.swift */,
+				DAC5A48124557AF300DFB2D1 /* Info.plist */,
 			);
 			path = DiaryAppPTests;
 			sourceTree = "<group>";
 		};
-		DAACFC0324557015000DDB14 /* DiaryAppPUITests */ = {
+		DAC5A48924557AF300DFB2D1 /* DiaryAppPUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DAACFC0424557015000DDB14 /* DiaryAppPUITests.swift */,
-				DAACFC0624557015000DDB14 /* Info.plist */,
+				DAC5A48A24557AF300DFB2D1 /* DiaryAppPUITests.swift */,
+				DAC5A48C24557AF300DFB2D1 /* Info.plist */,
 			);
 			path = DiaryAppPUITests;
-			sourceTree = "<group>";
-		};
-		FDBA705176C1A387EE43D3CD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				61BAD937FF64565D2AE2DCE1 /* Pods-DiaryAppP.debug.xcconfig */,
-				53FC5C3B6D76FDE080B21E19 /* Pods-DiaryAppP.release.xcconfig */,
-				E053578538A58755A80D0849 /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */,
-				EEF37E156127C4B48EF68D8B /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */,
-				B4F9EF49EC9F3B515C0F65D6 /* Pods-DiaryAppPTests.debug.xcconfig */,
-				759B5AA8349A5C6371374F15 /* Pods-DiaryAppPTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DAACFBDE24557014000DDB14 /* DiaryAppP */ = {
+		DAC5A46424557AF200DFB2D1 /* DiaryAppP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAACFC0924557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppP" */;
+			buildConfigurationList = DAC5A48F24557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppP" */;
 			buildPhases = (
-				32472F05DDF8A399ACE1C36A /* [CP] Check Pods Manifest.lock */,
-				DAACFBDB24557014000DDB14 /* Sources */,
-				DAACFBDC24557014000DDB14 /* Frameworks */,
-				DAACFBDD24557014000DDB14 /* Resources */,
-				54D95BE7DD41FD82DB4C52B3 /* [CP] Embed Pods Frameworks */,
+				91216C5F4326635BEA796AD1 /* [CP] Check Pods Manifest.lock */,
+				DAC5A46124557AF200DFB2D1 /* Sources */,
+				DAC5A46224557AF200DFB2D1 /* Frameworks */,
+				DAC5A46324557AF200DFB2D1 /* Resources */,
+				91A870199685786DE324410E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,72 +193,72 @@
 			);
 			name = DiaryAppP;
 			productName = DiaryAppP;
-			productReference = DAACFBDF24557014000DDB14 /* DiaryAppP.app */;
+			productReference = DAC5A46524557AF200DFB2D1 /* DiaryAppP.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DAACFBF424557015000DDB14 /* DiaryAppPTests */ = {
+		DAC5A47A24557AF300DFB2D1 /* DiaryAppPTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAACFC0C24557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppPTests" */;
+			buildConfigurationList = DAC5A49224557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppPTests" */;
 			buildPhases = (
-				A1AA9D2A8ECD4FFF5DA4AC17 /* [CP] Check Pods Manifest.lock */,
-				DAACFBF124557015000DDB14 /* Sources */,
-				DAACFBF224557015000DDB14 /* Frameworks */,
-				DAACFBF324557015000DDB14 /* Resources */,
+				ED0DFD640113E153358CFDA5 /* [CP] Check Pods Manifest.lock */,
+				DAC5A47724557AF300DFB2D1 /* Sources */,
+				DAC5A47824557AF300DFB2D1 /* Frameworks */,
+				DAC5A47924557AF300DFB2D1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAACFBF724557015000DDB14 /* PBXTargetDependency */,
+				DAC5A47D24557AF300DFB2D1 /* PBXTargetDependency */,
 			);
 			name = DiaryAppPTests;
 			productName = DiaryAppPTests;
-			productReference = DAACFBF524557015000DDB14 /* DiaryAppPTests.xctest */;
+			productReference = DAC5A47B24557AF300DFB2D1 /* DiaryAppPTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DAACFBFF24557015000DDB14 /* DiaryAppPUITests */ = {
+		DAC5A48524557AF300DFB2D1 /* DiaryAppPUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DAACFC0F24557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppPUITests" */;
+			buildConfigurationList = DAC5A49524557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppPUITests" */;
 			buildPhases = (
-				C0E3B48E3AB9443DAF02C053 /* [CP] Check Pods Manifest.lock */,
-				DAACFBFC24557015000DDB14 /* Sources */,
-				DAACFBFD24557015000DDB14 /* Frameworks */,
-				DAACFBFE24557015000DDB14 /* Resources */,
-				41191E2E3708E0D033B8A1D2 /* [CP] Embed Pods Frameworks */,
+				611AEF35BA377C2B2154F0EA /* [CP] Check Pods Manifest.lock */,
+				DAC5A48224557AF300DFB2D1 /* Sources */,
+				DAC5A48324557AF300DFB2D1 /* Frameworks */,
+				DAC5A48424557AF300DFB2D1 /* Resources */,
+				AD546299909EA8B2DC4D3FF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DAACFC0224557015000DDB14 /* PBXTargetDependency */,
+				DAC5A48824557AF300DFB2D1 /* PBXTargetDependency */,
 			);
 			name = DiaryAppPUITests;
 			productName = DiaryAppPUITests;
-			productReference = DAACFC0024557015000DDB14 /* DiaryAppPUITests.xctest */;
+			productReference = DAC5A48624557AF300DFB2D1 /* DiaryAppPUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DAACFBD724557014000DDB14 /* Project object */ = {
+		DAC5A45D24557AF200DFB2D1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Itou Shingo";
 				TargetAttributes = {
-					DAACFBDE24557014000DDB14 = {
+					DAC5A46424557AF200DFB2D1 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					DAACFBF424557015000DDB14 = {
+					DAC5A47A24557AF300DFB2D1 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = DAACFBDE24557014000DDB14;
+						TestTargetID = DAC5A46424557AF200DFB2D1;
 					};
-					DAACFBFF24557015000DDB14 = {
+					DAC5A48524557AF300DFB2D1 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = DAACFBDE24557014000DDB14;
+						TestTargetID = DAC5A46424557AF200DFB2D1;
 					};
 				};
 			};
-			buildConfigurationList = DAACFBDA24557014000DDB14 /* Build configuration list for PBXProject "DiaryAppP" */;
+			buildConfigurationList = DAC5A46024557AF200DFB2D1 /* Build configuration list for PBXProject "DiaryAppP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -261,37 +266,37 @@
 				en,
 				Base,
 			);
-			mainGroup = DAACFBD624557014000DDB14;
-			productRefGroup = DAACFBE024557014000DDB14 /* Products */;
+			mainGroup = DAC5A45C24557AF200DFB2D1;
+			productRefGroup = DAC5A46624557AF200DFB2D1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DAACFBDE24557014000DDB14 /* DiaryAppP */,
-				DAACFBF424557015000DDB14 /* DiaryAppPTests */,
-				DAACFBFF24557015000DDB14 /* DiaryAppPUITests */,
+				DAC5A46424557AF200DFB2D1 /* DiaryAppP */,
+				DAC5A47A24557AF300DFB2D1 /* DiaryAppPTests */,
+				DAC5A48524557AF300DFB2D1 /* DiaryAppPUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DAACFBDD24557014000DDB14 /* Resources */ = {
+		DAC5A46324557AF200DFB2D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAACFBEF24557015000DDB14 /* LaunchScreen.storyboard in Resources */,
-				DAACFBEC24557015000DDB14 /* Assets.xcassets in Resources */,
-				DAACFBEA24557014000DDB14 /* Main.storyboard in Resources */,
+				DAC5A47524557AF300DFB2D1 /* LaunchScreen.storyboard in Resources */,
+				DAC5A47224557AF300DFB2D1 /* Assets.xcassets in Resources */,
+				DAC5A47024557AF200DFB2D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBF324557015000DDB14 /* Resources */ = {
+		DAC5A47924557AF300DFB2D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBFE24557015000DDB14 /* Resources */ = {
+		DAC5A48424557AF300DFB2D1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -301,85 +306,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32472F05DDF8A399ACE1C36A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DiaryAppP-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		41191E2E3708E0D033B8A1D2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54D95BE7DD41FD82DB4C52B3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A1AA9D2A8ECD4FFF5DA4AC17 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DiaryAppPTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0E3B48E3AB9443DAF02C053 /* [CP] Check Pods Manifest.lock */ = {
+		611AEF35BA377C2B2154F0EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,63 +328,143 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		91216C5F4326635BEA796AD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiaryAppP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A870199685786DE324410E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP/Pods-DiaryAppP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD546299909EA8B2DC4D3FF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiaryAppP-DiaryAppPUITests/Pods-DiaryAppP-DiaryAppPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0DFD640113E153358CFDA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiaryAppPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DAACFBDB24557014000DDB14 /* Sources */ = {
+		DAC5A46124557AF200DFB2D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAACFBE724557014000DDB14 /* ViewController.swift in Sources */,
-				DAACFBE324557014000DDB14 /* AppDelegate.swift in Sources */,
-				DAACFBE524557014000DDB14 /* SceneDelegate.swift in Sources */,
+				DAC5A46D24557AF200DFB2D1 /* ViewController.swift in Sources */,
+				DAE258DC24558F6300C79DC4 /* DiaryViewController.swift in Sources */,
+				DAC5A46924557AF200DFB2D1 /* AppDelegate.swift in Sources */,
+				DAC5A46B24557AF200DFB2D1 /* SceneDelegate.swift in Sources */,
+				DAE258DA24558AF200C79DC4 /* Diary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBF124557015000DDB14 /* Sources */ = {
+		DAC5A47724557AF300DFB2D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAACFBFA24557015000DDB14 /* DiaryAppPTests.swift in Sources */,
+				DAC5A48024557AF300DFB2D1 /* DiaryAppPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DAACFBFC24557015000DDB14 /* Sources */ = {
+		DAC5A48224557AF300DFB2D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAACFC0524557015000DDB14 /* DiaryAppPUITests.swift in Sources */,
+				DAC5A48B24557AF300DFB2D1 /* DiaryAppPUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DAACFBF724557015000DDB14 /* PBXTargetDependency */ = {
+		DAC5A47D24557AF300DFB2D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAACFBDE24557014000DDB14 /* DiaryAppP */;
-			targetProxy = DAACFBF624557015000DDB14 /* PBXContainerItemProxy */;
+			target = DAC5A46424557AF200DFB2D1 /* DiaryAppP */;
+			targetProxy = DAC5A47C24557AF300DFB2D1 /* PBXContainerItemProxy */;
 		};
-		DAACFC0224557015000DDB14 /* PBXTargetDependency */ = {
+		DAC5A48824557AF300DFB2D1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DAACFBDE24557014000DDB14 /* DiaryAppP */;
-			targetProxy = DAACFC0124557015000DDB14 /* PBXContainerItemProxy */;
+			target = DAC5A46424557AF200DFB2D1 /* DiaryAppP */;
+			targetProxy = DAC5A48724557AF300DFB2D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DAACFBE824557014000DDB14 /* Main.storyboard */ = {
+		DAC5A46E24557AF200DFB2D1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DAACFBE924557014000DDB14 /* Base */,
+				DAC5A46F24557AF200DFB2D1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DAACFBED24557015000DDB14 /* LaunchScreen.storyboard */ = {
+		DAC5A47324557AF300DFB2D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DAACFBEE24557015000DDB14 /* Base */,
+				DAC5A47424557AF300DFB2D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -465,7 +472,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DAACFC0724557015000DDB14 /* Debug */ = {
+		DAC5A48D24557AF300DFB2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		DAACFC0824557015000DDB14 /* Release */ = {
+		DAC5A48E24557AF300DFB2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -579,9 +586,9 @@
 			};
 			name = Release;
 		};
-		DAACFC0A24557015000DDB14 /* Debug */ = {
+		DAC5A49024557AF300DFB2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61BAD937FF64565D2AE2DCE1 /* Pods-DiaryAppP.debug.xcconfig */;
+			baseConfigurationReference = 0AA56754FFA2D03336F084F8 /* Pods-DiaryAppP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -598,9 +605,9 @@
 			};
 			name = Debug;
 		};
-		DAACFC0B24557015000DDB14 /* Release */ = {
+		DAC5A49124557AF300DFB2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53FC5C3B6D76FDE080B21E19 /* Pods-DiaryAppP.release.xcconfig */;
+			baseConfigurationReference = 062799A6D51BF66CBDAEC830 /* Pods-DiaryAppP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,9 +624,9 @@
 			};
 			name = Release;
 		};
-		DAACFC0D24557015000DDB14 /* Debug */ = {
+		DAC5A49324557AF300DFB2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4F9EF49EC9F3B515C0F65D6 /* Pods-DiaryAppPTests.debug.xcconfig */;
+			baseConfigurationReference = EE34948776F81A755CDD859D /* Pods-DiaryAppPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -640,9 +647,9 @@
 			};
 			name = Debug;
 		};
-		DAACFC0E24557015000DDB14 /* Release */ = {
+		DAC5A49424557AF300DFB2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 759B5AA8349A5C6371374F15 /* Pods-DiaryAppPTests.release.xcconfig */;
+			baseConfigurationReference = 29239913933A5B8D9593D2FC /* Pods-DiaryAppPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,9 +670,9 @@
 			};
 			name = Release;
 		};
-		DAACFC1024557015000DDB14 /* Debug */ = {
+		DAC5A49624557AF300DFB2D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E053578538A58755A80D0849 /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */;
+			baseConfigurationReference = B881058B2B72D61BB8EE0CFB /* Pods-DiaryAppP-DiaryAppPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -684,9 +691,9 @@
 			};
 			name = Debug;
 		};
-		DAACFC1124557015000DDB14 /* Release */ = {
+		DAC5A49724557AF300DFB2D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEF37E156127C4B48EF68D8B /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */;
+			baseConfigurationReference = A171DB855C53B0AA64EF6674 /* Pods-DiaryAppP-DiaryAppPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -708,43 +715,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DAACFBDA24557014000DDB14 /* Build configuration list for PBXProject "DiaryAppP" */ = {
+		DAC5A46024557AF200DFB2D1 /* Build configuration list for PBXProject "DiaryAppP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAACFC0724557015000DDB14 /* Debug */,
-				DAACFC0824557015000DDB14 /* Release */,
+				DAC5A48D24557AF300DFB2D1 /* Debug */,
+				DAC5A48E24557AF300DFB2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAACFC0924557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppP" */ = {
+		DAC5A48F24557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAACFC0A24557015000DDB14 /* Debug */,
-				DAACFC0B24557015000DDB14 /* Release */,
+				DAC5A49024557AF300DFB2D1 /* Debug */,
+				DAC5A49124557AF300DFB2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAACFC0C24557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppPTests" */ = {
+		DAC5A49224557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppPTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAACFC0D24557015000DDB14 /* Debug */,
-				DAACFC0E24557015000DDB14 /* Release */,
+				DAC5A49324557AF300DFB2D1 /* Debug */,
+				DAC5A49424557AF300DFB2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DAACFC0F24557015000DDB14 /* Build configuration list for PBXNativeTarget "DiaryAppPUITests" */ = {
+		DAC5A49524557AF300DFB2D1 /* Build configuration list for PBXNativeTarget "DiaryAppPUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAACFC1024557015000DDB14 /* Debug */,
-				DAACFC1124557015000DDB14 /* Release */,
+				DAC5A49624557AF300DFB2D1 /* Debug */,
+				DAC5A49724557AF300DFB2D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DAACFBD724557014000DDB14 /* Project object */;
+	rootObject = DAC5A45D24557AF200DFB2D1 /* Project object */;
 }
